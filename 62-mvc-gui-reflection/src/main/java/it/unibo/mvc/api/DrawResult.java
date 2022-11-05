@@ -31,6 +31,8 @@ public enum DrawResult {
     }
 
     /**
+     * Describes the result.
+     *
      * @return a description of the draw result
      */
     public String getDescription() {

@@ -6,3 +6,7 @@ plugins {
 application {
     mainClass.set("it.unibo.mvc.DrawNumberApp")
 }
+
+tasks.javadoc {
+    isFailOnError = false
+}

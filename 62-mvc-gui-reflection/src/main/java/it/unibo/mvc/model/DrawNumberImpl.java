@@ -6,7 +6,7 @@ import it.unibo.mvc.api.DrawResult;
 import java.util.Random;
 
 /**
- *
+ * Implementationn of the application model.
  */
 public final class DrawNumberImpl implements DrawNumber {
 
@@ -18,6 +18,8 @@ public final class DrawNumberImpl implements DrawNumber {
     private final Random random = new Random();
 
     /**
+     * Builds a new game.
+     *
      * @throws IllegalStateException if the configuration is not consistent
      */
     public DrawNumberImpl() {
@@ -25,6 +27,8 @@ public final class DrawNumberImpl implements DrawNumber {
     }
 
     /**
+     * Builds a new game.
+     *
      * @param configuration the game configuration
      * @throws IllegalStateException if the configuration is not consistent
      */

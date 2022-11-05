@@ -33,7 +33,7 @@ public final class DrawNumberSwingView implements DrawNumberView {
     private final JFrame frame = new JFrame(FRAME_NAME);
 
     /**
-     * 
+     * Builds a new Swing-based interactive view.
      */
     public DrawNumberSwingView() {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

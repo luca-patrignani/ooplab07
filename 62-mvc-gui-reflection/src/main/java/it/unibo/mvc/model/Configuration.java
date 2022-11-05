@@ -17,6 +17,8 @@ public final class Configuration {
     }
 
     /**
+     * Returns the maximum value.
+     *
      * @return the maximum value
      */
     public int getMax() {
@@ -24,6 +26,8 @@ public final class Configuration {
     }
 
     /**
+     * Returns the minimum value.
+     *
      * @return the minimum value
      */
     public int getMin() {
@@ -31,6 +35,8 @@ public final class Configuration {
     }
 
     /**
+     * Returns the number of attempts.
+     *
      * @return the number of attempts
      */
     public int getAttempts() {
@@ -38,6 +44,8 @@ public final class Configuration {
     }
 
     /**
+     * Checks the consistency of the configuration.
+     *
      * @return true if the configuration is consistent
      */
     public boolean isConsistent() {
@@ -77,6 +85,8 @@ public final class Configuration {
         private boolean consumed;
 
         /**
+         * Sets the minimum value.
+         *
          * @param min the minimum value
          * @return this builder, for method chaining
          */
@@ -86,6 +96,8 @@ public final class Configuration {
         }
 
         /**
+         * Sets the maximum value.
+         *
          * @param max the maximum value
          * @return this builder, for method chaining
          */
@@ -95,6 +107,8 @@ public final class Configuration {
         }
 
         /**
+         * Sets the minimum number of attempts.
+         *
          * @param attempts the attempts count
          * @return this builder, for method chaining
          */
@@ -104,6 +118,8 @@ public final class Configuration {
         }
 
         /**
+         * Builds the {@link Configuration}.
+         *
          * @return a {@code Configuration}
          */
         public final Configuration build() {
