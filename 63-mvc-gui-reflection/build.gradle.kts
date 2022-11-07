@@ -4,7 +4,7 @@ plugins {
 }
 
 application {
-    mainClass.set("it.unibo.mvc.DrawNumberApp")
+    mainClass.set("it.unibo.mvc.LaunchApp")
 }
 
 tasks.javadoc {
